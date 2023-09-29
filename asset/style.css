@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+.card{
+    width: 400px;
+    height: 550px;
+    border: solid 1px blue;
+    border-radius: 30%;
+    background-color: aquamarine;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card img{
+    width: 250px;
+    height: 350px;
+}
+.DivCalculo{
+    display: flex;
+}
+.DivCalculo input, h3 {
+    margin: 5px;  
+}
+.DivCalculo input{
+    width: 15px;
+}
